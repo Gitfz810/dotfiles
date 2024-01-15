@@ -110,7 +110,7 @@ cmp.setup({
   formatting = {
     fields = { "kind", "abbr", "menu" },
     format = lspkind.cmp_format({
-      mode = "symbol_text", -- show only symbol annotations
+      mode = "symbol", -- show only symbol annotations
       maxwidth = 50,
       ellipsis_char = "...",
     }),

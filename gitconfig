@@ -47,8 +47,6 @@
     minus-emph-style = syntax bold red
     plus-emph-style = syntax bold green
     whitespace-error-style = purple bold
-[gpg]
-    program = /usr/local/bin/gpg
 [tag]
 	forceSignAnnotated = false
 [merge]
@@ -64,4 +62,6 @@
 	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
 	trustExitCode = true
 [mergetool]
-	prompt = false
+    prompt = false
+[url "ssh://git@registry.code.tuya-inc.top:10023/"]
+	insteadOf = https://registry.code.tuya-inc.top/

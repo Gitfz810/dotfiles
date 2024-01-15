@@ -3,6 +3,7 @@
 SETUVAR --export CLICOLOR:1
 SETUVAR --export --path GOPATH:/Users/wiser/workspace/go
 SETUVAR --export GREP_COLOR:1\x3b31
+SETUVAR --export HOMEBREW_BREW_GIT_REMOTE:https\x3a//mirrors\x2eustc\x2eedu\x2ecn/brew\x2egit
 SETUVAR --export LC_ALL:en_US\x2eUTF\x2d8
 SETUVAR --export LC_CTYPE:zh_CN\x2eUTF\x2d8
 SETUVAR --export LESS_TERMCAP_mb:\x1b\x5b01\x3b31m

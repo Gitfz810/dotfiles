@@ -4,6 +4,7 @@ function M.setup()
   local config = {
     -- when there has code action it will show a lightbulb
     lightbulb = {
+      enable = false,
       sign = false,
     },
     beacon = {
